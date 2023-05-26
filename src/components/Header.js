@@ -24,7 +24,7 @@ const Header = () => {
                     <div className="row aling-items-center">
                         <div className="col-2">
                             <h2>
-                                <Link className="text-wite">EVO STORE</Link>
+                                <Link className="text-white">EVOLUTION</Link>
                             </h2>
                         </div>
                         <div className="col-5">
