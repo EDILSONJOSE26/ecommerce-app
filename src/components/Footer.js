@@ -48,19 +48,19 @@ const Footer = () => {
                   edilsonjoseexemplo@gmail.com
                   </a>
                   <div className='social-icons d-flex align-items-center gap-30 mt-4'>
-                    <a className='text-white' href=''>
+                    <a className='text-white' href='#'>
                       <BsLinkedin  className='fs-4'/>
                     </a>
-                    <a className='text-white' href=''>
+                    <a className='text-white' href='#'>
                       <BsInstagram className='fs-4'/>
                     </a>
-                    <a className='text-white' href='https://github.com/EDILSONJOSE26'>
+                    <a className='text-white' href='#https://github.com/EDILSONJOSE26'>
                       <BsGithub className='fs-4'/>
                     </a>
-                    <a className='text-white' href=''>
+                    <a className='text-white' href='#'>
                       <BsWhatsapp className='fs-4'/>
                     </a>
-                    <a className='text-white' href=''>
+                    <a className='text-white' href='#'>
                       <BsTelegram className='fs-4'/>
                     </a>
                   </div>
