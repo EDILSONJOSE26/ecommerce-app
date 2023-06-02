@@ -189,7 +189,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section class1="marque-wrapper home-wrapper-2 py-5">
+      <section className="marque-wrapper home-wrapper-2 py-5">
         <div className='container-xxl'>
           <div className="row">
             <div className="col-12">
@@ -225,11 +225,11 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section class1="blog-wrapper py-5 home-wrapper-2">
+      <section className="blog-wrapper py-5 home-wrapper-2">
         <div className='container-xxl'>
           <div className="row">
             <div className='col-12'>
-              <h3 className='section-heading'>Novos Blogs</h3>
+              <h3 className='section-heading'>Blogues mais recentes</h3>
             </div>
             <BlogCard />
             <BlogCard />
@@ -238,11 +238,11 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section class1="blog-wrapper py-5 home-wrapper-2">
+      <section className="blog-wrapper py-5 home-wrapper-2">
         <div className='container-xxl'>
           <div className="row">
             <div className='col-12'>
-              <h3 className='section-heading'>Novos Blogs</h3>
+              <h3 className='section-heading'>Em destaque</h3>
             </div>
             <BlogCard />
             <BlogCard />
