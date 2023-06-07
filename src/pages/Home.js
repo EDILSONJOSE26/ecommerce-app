@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Marquee from "react-fast-marquee";
 import BlogCard from '../components/BlogCard';
 import ProductCard from '../components/ProductCard';
+import SpecialProduct from '../components/SpecialProduct';
 
 const Home = () => {
   return (
@@ -194,7 +195,7 @@ const Home = () => {
         <div className='container-xxl'>
           <div className="row">
             <div className='col-12'>
-              <h3 className='section-heading'>featured</h3>
+              <h3 className='section-heading'>Em destaque</h3>
             </div>
             <ProductCard />
             <ProductCard />
@@ -203,9 +204,80 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className='famous-wrapper py-5 home-wrapper-2'>
+        <div className='container-xxl'>
+          <div className='row'>
+            <div className='col-3'>
+              <div className='famous-card position-relative'>
+                  <img src='images/famous-1.webp' className='img-fluid' alt='' />
+                < div className='famous-content position-absolute'>
+                <h5>Relogios</h5>
+                <h6> Apple Watch 7</h6>
+                <p>R$ 3.999,90 à vista ou 10x de R$ 399,99 sem juros</p>
+                </div>
+              </div>
+            </div>
+            <div className='col-3'>
+              <div className='famous-card position-relative'>
+                  <img src='images/famous-2.webp' className='img-fluid' alt='' />
+                < div className='famous-content position-absolute'>
+                <h5 className='text-dark'>Para estúdio</h5>
+                <h6 className='text-dark'> 600 nits de Brilho</h6>
+                <p className='text-dark'>27 polegadas Resoluçao 5K</p>
+                </div>
+              </div>
+            </div>
+            <div className='col-3'>
+              <div className='famous-card position-relative'>
+                  <img src='images/famous-3.webp' className='img-fluid' alt='' />
+                < div className='famous-content position-absolute'>
+                <h5 className='text-dark'>Smartphones</h5>
+                <h6 className='text-dark'>iPhone 13 Pro</h6>
+                <p className='text-dark'>Tela de 6,7”, Câmera Tripla de 12MP</p>
+                </div>
+              </div>
+            </div>
+            <div className='col-3'>
+              <div className='famous-card position-relative'>
+                  <img src='images/famous-4.webp' className='img-fluid' alt='' />
+                < div className='famous-content position-absolute'>
+                <h5 className='text-dark'>Caixa de som</h5>
+                <h6 className='text-dark'>Som potente. Durante o dia todo</h6>
+                <p className='text-dark'>Graves muito mais profundos e potentes</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className='special-wrapper py-5 home-wrapper-2'>
         <div className='container-xxl'>
-          
+          <div className='row'>
+            <div className='col-12'>
+              <h3 className='section-heading'>Produtos Especiais</h3>
+            </div>
+          </div>
+          <div className='row'>
+            <SpecialProduct />
+            <SpecialProduct />
+            <SpecialProduct />
+            <SpecialProduct />
+          </div>
+        </div>
+      </section>
+      <section className="popular-wrapper py-5 home-wrapper-2">
+        <div className='container-xxl'>
+          <div className="row">
+            <div className='col-12'>
+              <h3 className='section-heading'>Produtos populares</h3>
+            </div>
+            <div className='row'>
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+            </div>
+          </div>
         </div>
       </section>
       <section className="marque-wrapper home-wrapper-2 py-5">
