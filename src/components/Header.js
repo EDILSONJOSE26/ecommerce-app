@@ -43,7 +43,8 @@ const Header = () => {
                         <div className="col-5">
                             <div className="header-upper-links d-flex align-items-center justify-content-between">
                                 <div>
-                                    <Link className="d-flex aling-items-center gap-10 text-white">
+                                    <Link to='/compare-product'
+                                        className="d-flex aling-items-center gap-10 text-white">
                                         <img src="images/compare.svg" alt="Comparar" />
                                         <p className="mb-0" >
                                             Comparar <br /> Produtos
@@ -51,7 +52,8 @@ const Header = () => {
                                     </Link>
                                 </div>
                                 <div>
-                                    <Link className="d-flex aling-items-center gap-10 text-white">
+                                    <Link to='/wishlist'
+                                        className="d-flex aling-items-center gap-10 text-white">
                                         <img src="images/wishlist.svg" alt="Lista de desejos" />
                                         <p className="mb-0">
                                             Lista de <br /> Desejos
@@ -59,7 +61,8 @@ const Header = () => {
                                     </Link>
                                 </div>
                                 <div>
-                                    <Link className="d-flex aling-items-center gap-10 text-white">
+                                    <Link to='/login'
+                                        className="d-flex aling-items-center gap-10 text-white">
                                         <img src="images/user.svg" alt="Usuario" />
                                         <p className="mb-0">
                                             Login  <br />
@@ -67,7 +70,8 @@ const Header = () => {
                                     </Link>
                                 </div>
                                 <div>
-                                    <Link className="d-flex aling-items-center gap-10 text-white">
+                                    <Link to='/cart'
+                                        className="d-flex aling-items-center gap-10 text-white">
                                         <img src="images/cart.svg" alt="Carrinho" />
                                         <div className="d-flex flex-column">
                                             <span className="badge bg-white text-dark">100</span>
@@ -112,10 +116,10 @@ const Header = () => {
                                         <NavLink className="text-white" to="/store">
                                             Nossa loja
                                         </NavLink>
-                                        <NavLink className="text-white" to="/">
+                                        <NavLink className="text-white" to="/blogs">
                                         Blogs
                                         </NavLink>
-                                        <NavLink className="text-white" to="/">
+                                        <NavLink className="text-white" to="/contact">
                                             Contato
                                         </NavLink>
                                     </div>

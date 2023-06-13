@@ -22,8 +22,7 @@ const ProductCard = (props) => {
         <div className="product-details">
           <h6 className="brand">Apple</h6>
           <h5 className="product-title">
-          Conheça o elegante relógio inteligente Watch SE. Mantenha-se conectado com
-           estilo
+          Conheça o elegante relógio inteligente Watch SE.
           </h5>
           <ReactStars
           count={5}
@@ -32,6 +31,12 @@ const ProductCard = (props) => {
           edit={false}
           activeColor='#ffd700'
           />
+          <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
+            Não perca a chance de adquirir o Watch e aproveitar
+           a combinação perfeita de estilo, funcionalidade e tecnologia avançada. 
+           Ele é o parceiro ideal para acompanhar você em todas as ocasiões, 
+           desde reuniões de negócios até atividades ao ar livre. 
+           Experimente agora o Watch e eleve o seu estilo e conveniência a um novo patamar.</p>
           <p className="price">R$5.000</p>
         </div>
         <div className="action-bar position-absolute">
@@ -63,8 +68,7 @@ const ProductCard = (props) => {
         <div className="product-details">
           <h6 className="brand">Apple</h6>
           <h5 className="product-title">
-          Conheça o elegante relógio inteligente Watch SE. Mantenha-se conectado com
-           estilo.
+          Conheça o elegante relógio inteligente Watch SE
           </h5>
           <ReactStars
           count={5}
@@ -73,18 +77,24 @@ const ProductCard = (props) => {
           edit={false}
           activeColor='#ffd700'
           />
+          <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
+            Não perca a chance de adquirir o Watch e aproveitar
+           a combinação perfeita de estilo, funcionalidade e tecnologia avançada. 
+           Ele é o parceiro ideal para acompanhar você em todas as ocasiões, 
+           desde reuniões de negócios até atividades ao ar livre. 
+           Experimente agora o Watch e eleve o seu estilo e conveniência a um novo patamar.</p>
           <p className="price">R$5.000</p>
         </div>
         <div className="action-bar position-absolute">
           <div className="d-flex flex-column gap-15">
             <Link>
-              <img src="images/prodcompare.svg" accessKey="" />
+              <img src="images/prodcompare.svg" alt="" accessKey="" />
             </Link>
             <Link>
-              <img src="images/view.svg" accessKey="" />
+              <img src="images/view.svg" alt="" accessKey="" />
             </Link>
             <Link>
-              <img src="images/add-cart.svg" accessKey="" />
+              <img src="images/add-cart.svg" alt="" accessKey="" />
             </Link>
           </div>
         </div>
