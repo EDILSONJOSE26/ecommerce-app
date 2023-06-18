@@ -9,7 +9,7 @@ const CompareProduct = () => {
   return (
     <>
       <Meta title={"Compare Products"} />
-      <BreadCrumb title="Compare Products" />
+      <BreadCrumb title="Comparar Produtos" />
       <div className="compare-product-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
         <div className="row">
@@ -27,7 +27,7 @@ const CompareProduct = () => {
                 <h5 className="title">
                   Honor T1 7.0 1 GB RAM 8 GB ROM 7 Inch With Wi-Fi+3G Tablet
                 </h5>
-                <h6 className="price mb-3 mt-3">$ 100</h6>
+                <h6 className="price mb-3 mt-3">R$ 2.000.00</h6>
 
                 <div>
                   <div className="product-detail">
